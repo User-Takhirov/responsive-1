@@ -246,9 +246,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .our_collection_img_block {
-    margin-bottom: 71px;
-  }
   .our_collection_title {
     margin-bottom: 24px;
   }
