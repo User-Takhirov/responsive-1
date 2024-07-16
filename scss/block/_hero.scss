@@ -59,9 +59,12 @@ padding: 16px 31px;
       line-height: 167%;
       width: 398px;
     }
+    .tablet{
+      padding: 0 40px;
+    }
   }
   
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1100px) {
     .hero_block {
       padding: 117px 85px;
       background-image: url("../../img/hero_desktop.jpg");

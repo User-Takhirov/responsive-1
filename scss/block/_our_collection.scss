@@ -70,9 +70,12 @@
         transform: translateX(-50%) translateY(-50%);
         z-index: -1;
     }
+    .tablet{
+        padding: 0 40px;
+      }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1100px) {
     .our_collection_list {
         display: flex;
         justify-content: space-between;
