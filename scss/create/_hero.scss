@@ -1,0 +1,78 @@
+.create_hero{
+    padding-bottom: 168px;
+}
+.Create_hero_title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 100%;
+    color: #fefcf7;
+    margin-bottom: 24px;
+}
+
+.create_hero_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #fefcf7;
+}
+
+.create_hero_block {
+    padding: 100px 24px;
+    background-image: url(../img/last_mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .create_hero_block {
+        padding: 127px 0 127px 58px;
+        background-image: url(../img/last_tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: start;
+    }
+
+    .create_hero_des {
+        width: 400px;
+    }
+
+    .Create_hero_title {
+        font-size: 48px;
+        line-height: 100%;
+    }
+
+    .create_hero_text {
+        font-size: 15px;
+        line-height: 167%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .create_hero_block {
+        padding: 134px 0 134px 85px;
+        background-image: url(../img/last_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: start;
+    }
+
+    .Create_hero_title {
+        font-size: 54px;
+        line-height: 100%;
+    }
+
+    .create_hero_text {
+        font-size: 16px;
+        line-height: 162%;
+    }
+
+}

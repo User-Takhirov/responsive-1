@@ -1,0 +1,124 @@
+.create_option {
+   padding-bottom: 120px;
+}
+
+.create_option_navbar {
+   border-radius: 10px;
+   background-color: #2c343e;
+   padding: 80px 24px;
+}
+
+.create_option_item {
+   text-align: center;
+   margin-bottom: 56px;
+}
+
+.create_option_item::before {
+   content: "";
+   background-image: url(../img/support_num1.svg);
+   display: inline-block;
+   background-repeat: no-repeat;
+   width: 90px;
+   height: 72px;
+   margin-bottom: 24px;
+}
+
+.create_stick {
+   display: none;
+}
+
+.create_option_inner_title {
+   font-family: var(--font-family);
+   font-weight: 900;
+   font-size: 28px;
+   line-height: 114%;
+   color: #fff;
+   margin-bottom: 24px;
+}
+
+.create_option_text {
+   font-family: var(--second-family);
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #fff;
+}
+
+@media screen and (min-width:768px) {
+   .create_option_navbar {
+      padding: 97px 40px 70px 40px;
+   }
+
+   .create_option_item::before {
+      margin-bottom: 42px;
+   }
+
+   .create_option_list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+   }
+
+   .create_option_item {
+      text-align: start;
+   }
+
+   .create_stick {
+      display: block;
+   }
+
+   .create_option_item {
+      margin-bottom: 0;
+   }
+
+   .create_option_inner_title {
+      font-size: 28px;
+      line-height: 114%;
+      margin-bottom: 39px;
+   }
+
+   .create_option_text {
+      font-size: 15px;
+      line-height: 167%;
+   }
+}
+
+@media screen and (min-width:1100px) {
+   .create_option_item::before {
+      margin-bottom: 38px;
+   }
+
+   .create_option_navbar {
+      padding: 100px 150px 100px 85px;
+   }
+
+   .create_option_list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 95px;
+   }
+
+   .create_option_item {
+      text-align: start;
+   }
+
+   .create_stick {
+      display: block;
+      margin-bottom: 82px;
+   }
+
+   .create_option_item {
+      margin-bottom: 0;
+   }
+
+   .create_option_inner_title {
+      font-size: 32px;
+      line-height: 112%;
+      margin-bottom: 43px;
+   }
+
+   .create_option_text {
+      font-size: 15px;
+      line-height: 162%;
+   }
+}

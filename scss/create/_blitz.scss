@@ -1,0 +1,167 @@
+.blitz{
+    padding-bottom: 120px;
+}
+.blitz_inner_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.blitz_title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 117%;
+    color: #83888f;
+}
+
+.blitz_inner_title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    margin-bottom: 8px;
+}
+
+.blitz_inner_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+}
+
+.blitz_item {
+    background-color: #f4f1eb;
+    padding: 24px 25px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.mid {
+    background-color: #0e8784;
+    color: #fff;
+}
+
+.first {
+    background-color: #0e8784;
+    color: #fff;
+}
+
+.last {
+    background-color: #0e8784;
+    color: #fff;
+}
+
+.blitz_list {
+    margin-bottom: 110px;
+}
+
+.blitz_left_list {
+    display: none;
+}
+
+.blitz_left_item {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    border-bottom: 1px solid #DFDFDD;
+    padding-bottom: 24px;
+    ;
+    width: 255px;
+    margin-bottom: 25px;
+}
+
+.blitz_num_title {
+    font-family: var(--third-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    color: #ACAFB2;
+}
+
+.blitz_num {
+    font-family: var(--third-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+}
+
+.green {
+    color: #9ECDC9
+}
+
+.sec {
+    color: #858A90;
+}
+
+.third {
+    color: #C9CACA;
+}
+
+.last_num{
+    color:#333D4B;
+}
+
+@media screen and (min-width:768px) {
+    .blitz_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .blitz_item {
+        padding: 32px 25px 57px 25px;
+        margin-bottom: 0;
+    }
+
+    .blitz_inner_div {
+        margin-bottom: 40px;
+    }
+
+    .blitz_inner_title {
+        font-size: 24px;
+        line-height: 133%;
+    }
+
+    .blitz_inner_text {
+        font-size: 16px;
+        line-height: 162%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .blitz_left_list {
+        display: inline-block;
+    }
+
+    .blitz_item {
+        padding: 32px 28px 84px 28px;
+    }
+
+    .blitz_inner_div {
+        margin-bottom: 56px;
+    }
+
+    .blitz_block {
+       display: flex;
+       justify-content: center;
+        gap: 125px;
+    }
+
+    .blitz_inner_title {
+        font-size: 24px;
+        line-height: 133%;
+        margin-bottom: 24px;
+    }
+
+    .blitz_inner_text {
+        font-size: 16px;
+        line-height: 162%;
+        width: 172px;
+    }
+
+    .blitz_list {
+        gap: 23px;
+    }
+}
