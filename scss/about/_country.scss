@@ -1,0 +1,65 @@
+.country{
+    padding: 40px 0 168px 0;
+}
+
+.country_title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    color: #83888f;
+    margin-bottom: 72px;
+}
+
+.country_item {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.united{
+    margin-bottom: 45px;
+}
+
+.country_inner_title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 129%;
+    color: #333d4b;
+    margin-bottom: 24px;
+}
+
+.country_inner_link {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #333d4b;
+}
+@media screen and (min-width:768px) {
+    .country_list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .country_title{
+        text-align: start;
+    }
+    .country_item{
+        text-align: start;
+        margin-bottom: 0;
+    }
+    .country_title{
+        text-align: start;
+    }
+}
+@media screen and (min-width:1100px) {
+    .country_list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 95px;
+        justify-content: center;
+    }
+    .tablet{
+        padding: 0 24px;
+    }
+}
